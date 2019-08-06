@@ -7,7 +7,6 @@ import SearchForm from './SearchForm';
 class App extends React.Component {
     state = {
         url: 'https://www.googleapis.com/books/v1/volumes?q',
-        apiKey: 'AIzaSyAjjfuT4ymbvrKHwZ3DyFPo8NwX--mPAgU',
         searchTerm: 'harry&potter',
         printType: [],
         bookType: [],
